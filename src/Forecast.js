@@ -40,13 +40,6 @@ function Forecast() {
             6°
           </p>
         </div>
-        <div>
-          <p>
-            Sun.
-            <br />
-            5°
-          </p>
-        </div>
       </div>
     </>
   )

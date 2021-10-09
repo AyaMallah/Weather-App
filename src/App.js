@@ -12,6 +12,7 @@ function App() {
         <Weather />
         <Forecast />
       </div>
+      <p><a href="https://github.com/AyaMallah/Weather-App">Open-source code</a>, by Aya.</p>
     </div>
   );
 }

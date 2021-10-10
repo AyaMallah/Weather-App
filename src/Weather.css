@@ -32,3 +32,12 @@ img {
   line-height: 1;
   top: -34px;
 }
+form {
+  margin-bottom: 30px;
+}
+input {
+  margin: 3px;
+}
+a {
+  text-decoration: none;
+}

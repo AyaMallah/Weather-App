@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Weather.css';
 import WeatherInfo from "./WeatherInfo";
+import Forecast from "./Forecast";
 import axios from "axios";
 
 function Weather(props) {
@@ -16,9 +17,8 @@ function Weather(props) {
       description: (response.data.weather[0].description),
       humidity: (response.data.main.humidity),
       wind: (response.data.wind.speed),
-      icon: (
-        `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-      )
+      icon: (response.data.weather[0].icon),
+      coordinates: (response.data.coord)
     })
   }
 
@@ -52,6 +52,7 @@ function Weather(props) {
         </form>
         {/* <input type="submit" value="Current" /> */}
         <WeatherInfo data={weatherData} />
+        <Forecast coordinates={weatherData.coordinates} />
       </>
     )
   } else {

@@ -1,6 +1,5 @@
 
-import React from "react";
-import { useState } from "react/cjs/react.development";
+import React, { useState } from "react";
 
 function WeatherTemperature(props) {
   const [unit, setUnit] = useState('metric')

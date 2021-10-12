@@ -8,7 +8,7 @@ function App() {
       <div className="main-container">
         <Weather defaultCity="London" />
       </div>
-      <footer><a href="https://github.com/AyaMallah/Weather-App">Open-source code</a>, by Aya.</footer>
+      <footer><a href="https://github.com/AyaMallah/Weather-App" target="_blank" rel="noopener noreferrer">Open-source code</a>, by Aya.</footer>
     </div>
   );
 }

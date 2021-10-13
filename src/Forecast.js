@@ -29,7 +29,7 @@ function Forecast(props) {
   if (loaded) {
     return (
       <>
-        <h4>6 Day Forecast</h4>
+        <h4>5 Day Forecast</h4>
         <div className="row forecast">
           {forecast.map((daily, index) => {
             if (index < 5) {

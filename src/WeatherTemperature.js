@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-
+import './WeatherTemperature.css'
 function WeatherTemperature(props) {
   const [unit, setUnit] = useState('metric')
 

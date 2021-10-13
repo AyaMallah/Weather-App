@@ -3,13 +3,14 @@ import Weather from './Weather';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Weather App</h1>
-      <div className="main-container">
-        <Weather defaultCity="London" />
+    <>
+      <div className="App">
+        <div className="main-container">
+          <Weather defaultCity="London" />
+        </div>
       </div>
-      <footer><a href="https://github.com/AyaMallah/Weather-App" target="_blank" rel="noopener noreferrer">Open-source code</a>, by Aya.</footer>
-    </div>
+      <footer><a className="github" href="https://github.com/AyaMallah/Weather-App" target="_blank" rel="noopener noreferrer">Open-source code</a>, by Aya.</footer>
+    </>
   );
 }
 

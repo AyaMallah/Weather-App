@@ -48,7 +48,7 @@ function Weather(props) {
             className="w-50"
             onChange={handleChange}
           />
-          <input type="submit" value="Search" />
+          <input className="button" type="submit" value="Search" />
         </form>
         {/* <input type="submit" value="Current" /> */}
         <WeatherInfo data={weatherData} />

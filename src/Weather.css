@@ -8,9 +8,6 @@ li {
   line-height: 19px;
   list-style: none;
 }
-.weather {
-  margin: 20px;
-}
 img {
   height: 75px;
   width: 75px;
@@ -36,8 +33,16 @@ form {
   margin-bottom: 30px;
 }
 input {
-  margin: 3px;
+  margin-right: 3px;
+  padding: 3px;
 }
-a {
-  text-decoration: none;
+.button {
+  background-color: #2294f2;
+  border: honeydew 1px solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 3px;
+}
+.button:hover {
+  opacity: 0.8;
 }

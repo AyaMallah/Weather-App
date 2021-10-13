@@ -1,16 +1,25 @@
 .App {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 60px auto 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 13px;
 }
 h1 {
   text-align: center;
 }
 .main-container {
   border: 1px solid gray;
-  border-radius: 10px;
-  padding: 40px;
+  border-radius: 13px;
+  padding: 50px;
 }
 footer {
   margin: 10px;
   text-align: center;
+}
+body {
+  margin: 0 auto;
+  background-image: url('https://res.cloudinary.com/dhrxw6zhp/image/upload/v1634144918/61Y9I2v2ZDL._AC_SL1500__odxpca.jpg');
+}
+.github {
+  color: #f4d160;
 }

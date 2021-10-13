@@ -1,0 +1,14 @@
+.forecast-day {
+  color: #013d59;
+  font-weight: 500;
+  margin: 6px;
+}
+span {
+  color: #a2dbfa;
+}
+.temp-min {
+  font-weight: 200;
+}
+.min-max {
+  margin-top: 5px;
+}

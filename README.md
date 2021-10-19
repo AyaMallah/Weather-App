@@ -31,10 +31,10 @@ Use an external API to create a React app with multiple components. This app sho
 * Install Node.js. 
 * Create an empty folder.
 * Open empty with VS Code.
-* Open Terminal
-* Run `yarn install`
+* Open Terminal.
+* Run `yarn install`.
 * Run `npx create-react-app .`.
-* Type `yarn start`
+* Type `yarn start`.
 
 ## Plan
 I wanted to create an informative app with a minimalistic look to the design and clear UI. I began with drawing a wireframe on Figma of how I wanted it to look. I then chose a colour palette of cloudy blue/ white with hints of yellow. After that, I moved onto creating a Trello board to organise the work into seperate tickets and to keep on track of everything being done.
